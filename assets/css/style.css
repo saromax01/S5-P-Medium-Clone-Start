@@ -152,6 +152,7 @@ article {
 footer {
     padding: 50px;
     width: 400px;
+    height: 500px;
 }
 .end button {
     padding: 10px;
@@ -203,6 +204,7 @@ section {
 }
 .distri {
     display: flex;
+    align-items: baseline;
 }
 
 @media (max-width: 768px) {
