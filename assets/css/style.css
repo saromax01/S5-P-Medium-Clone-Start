@@ -32,14 +32,9 @@ a {
     background-color: black;
 }
 
-.navbar.scrolled {
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.navbar.scrolled button {
-    background-color: green;
-}
+
+
 
 .navbar .logo {
     font-size: 24px;
@@ -141,9 +136,18 @@ article {
     margin-inline: auto;
     position: relative;
 }
+article span {
+    color: #c0c0c0;
+    font-size: 30px;
+    font-weight: 900;
+}
 .articoli {
     width: 300px;
     margin: 1em;
+}
+.global {
+    display: flex;
+    align-items: baseline;
 }
 .articoli p {
     color: #a5a5a5;
@@ -162,6 +166,12 @@ footer {
 }
 .end {
     margin: 1em;
+    margin-bottom: 2em;
+}
+footer nav {
+    margin-top: 2em;
+    border-top: 0.8px solid rgb(128, 126, 126);
+    padding-top: 25px;
 }
 
 footer nav ul {
@@ -171,7 +181,7 @@ footer nav ul {
     flex-wrap: wrap;
 }
 .navbar nav li a:hover,
-.article h2:hover, button {
+.article h2:hover, button, img {
 
     cursor: pointer;
 }
@@ -181,6 +191,8 @@ section {
 }
 .articoli2 {
     width: 90%;
+    position: relative;
+    margin-right: 25px;
 }
 .articoli2 img {
     border-radius: 50%;
@@ -221,3 +233,17 @@ article h1 {
     color: green;
     margin-bottom: 20px;
 }
+.navbar-scrolled {
+    background-color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-scrolled .navbar .logo {
+    color: green;
+  }
+.e {
+    position: absolute;
+    right: 0;
+     bottom: 0;
+}
+
